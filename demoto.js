@@ -28,6 +28,7 @@ const checkNum = y.filter(function(num){
 console.log(checkNum)*/
 const y = parseFloat(prompt("Enter a number:"));
 
+
     if (y > 0){
        console.log ("Positive integer")
     }
@@ -37,3 +38,14 @@ const y = parseFloat(prompt("Enter a number:"));
     else{
        console.log("Negative integer") 
     }
+    // use the some and filter keywords 
+// filter 
+const myObj = [1,3,5,7,9]
+const evenNumbers = myObj.filter(num => num % 2 === 1)
+console.log(evenNumbers)
+// some returns true
+
+const checkEvenNum = myObj.some(num => num % 2 === 0)
+console.log("there are no such numbers;",checkEvenNum)
+
+
