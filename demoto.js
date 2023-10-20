@@ -48,4 +48,14 @@ console.log(evenNumbers)
 const checkEvenNum = myObj.some(num => num % 2 === 0)
 console.log("there are no such numbers;",checkEvenNum)
 
-
+var result = 7 * (true + true);
+console.log(result)
+// recursion in js 
+function countDown(number){
+    console.log(number)
+    var newNum = number - 1
+    if (newNum > 0){
+        countDown(newNum)
+    }
+}
+console.log(countDown(7))
