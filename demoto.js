@@ -66,3 +66,11 @@ function countUp (number){
     } 
 }
 countUp(1);
+function countUp(num){
+    if(num <= 10){  //  condition understanding how the code should work
+        console.log(num);
+        countUp(num+1);// recurse
+    }
+    
+}
+countUp(1);
