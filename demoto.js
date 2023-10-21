@@ -74,3 +74,12 @@ function countUp(num){
     
 }
 countUp(1);
+// arrays 
+const myArray = [1,2,3,4,5,6,7,8,9]
+var fillled = myArray.fill(0)
+console.log(fillled)
+let yas = [1,2,3,4,5,6,7,8,9,0]
+var newzVal = yas.filter(num => num % 2 === 0)
+console.log(newzVal)
+var maxNum = Math.min(...yas)
+console.log(maxNum)
