@@ -83,3 +83,8 @@ var newzVal = yas.filter(num => num % 2 === 0)
 console.log(newzVal)
 var maxNum = Math.min(...yas)
 console.log(maxNum)
+function checkMatrix(MatrixA,MatrixB){
+    if ( MatrixA.length !== MatrixB.length || MatrixA.length[0] !== MatrixB.length){
+        return "This cannot work due to uncorresponding matrix properties"
+    }
+}
