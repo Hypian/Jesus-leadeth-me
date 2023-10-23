@@ -84,7 +84,7 @@ console.log(newzVal)
 var maxNum = Math.min(...yas)
 console.log(maxNum)
 function checkMatrix(MatrixA,MatrixB){
-    if ( MatrixA.length !== MatrixB.length || MatrixA.length[0] !== MatrixB.length){
+    if ( MatrixA.length !== MatrixB.length || MatrixA.length[0] !== MatrixB.length[0]){
         return "This cannot work due to uncorresponding matrix properties"
     }
 }
