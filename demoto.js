@@ -103,3 +103,10 @@ const grade = 45
 const result = (grade >80) ? "D1" 
  : (grade > 60 && grade < 80) ? "Pass" : "Fail"
 console.log(result)
+// Added more knowledge on ternary operator and solved problems without chatGpt lol
+function checkEqual(a, b) {
+    return a > b || b > a ? "Not Equal" : "Equal"
+  
+  }
+  
+  checkEqual(1, 2);
