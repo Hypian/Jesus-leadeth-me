@@ -83,6 +83,7 @@ var newzVal = yas.filter(num => num % 2 === 0)
 console.log(newzVal)
 var maxNum = Math.min(...yas)
 console.log(maxNum)
+<<<<<<< HEAD
 // recap on recursive function ; this is a function that recalls itself with a condition and recursive or (base code)
 // example below
 function countUpp(val){
@@ -92,3 +93,10 @@ function countUpp(val){
     }
 }
 countUpp(1);
+=======
+function checkMatrix(MatrixA,MatrixB){
+    if ( MatrixA.length !== MatrixB.length || MatrixA.length[0] !== MatrixB.length[0]){
+        return "This cannot work due to uncorresponding matrix properties"
+    }
+}
+>>>>>>> 4b36897147ff2d2172845eb735002ce55efbd3a1
