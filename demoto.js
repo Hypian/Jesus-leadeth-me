@@ -83,3 +83,12 @@ var newzVal = yas.filter(num => num % 2 === 0)
 console.log(newzVal)
 var maxNum = Math.min(...yas)
 console.log(maxNum)
+// recap on recursive function ; this is a function that recalls itself with a condition and recursive or (base code)
+// example below
+function countUpp(val){
+    if (val > 10){
+        console.log(val)
+        countUpp(val + 1)
+    }
+}
+countUpp(1);
