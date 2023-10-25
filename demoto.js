@@ -29,6 +29,7 @@ console.log(checkNum)
 const y = parseFloat(prompt("Enter a number:"));
 
 
+
     if (y > 0){
        console.log ("Positive integer")
     }
@@ -119,3 +120,8 @@ console.log(newVal)
 const myArrayy = [1,2,3,4,5,6,7,8,9]
 const otherVall = myArrayy.some(num => num < 1)
 console.log(otherVall)
+// i am adding practice on regex or regular expressions lol
+var herString = "The bugs in my code arent in my bed ";
+var herRegex = /[aeiou]/;
+var result = herRegex.test(herString)
+console.log(result)
