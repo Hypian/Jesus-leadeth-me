@@ -172,15 +172,29 @@ console.log(`The result of Your Operation is  ${answerr}`)
 // creating Write a program that takes a number (1-7) as input and 
 // displays the corresponding day of the week (e.g., 1 for "Sunday," 2 for "Monday," etc.).
 
-let dayName = "";
+let dayName = num;
 switch(dayNum){
-
-
-
-
-
-
-
-
-    
+case 1 :
+dayName = "Sunday"
+break;
+case 2 : 
+dayName = "Monday"
+break;
+case 3 :
+dayName = "Tuesday"
+break;
+case 4 : 
+dayName = "Wednesday"
+break;
+case 5 :
+dayName = "Thursday"
+break;
+case 6 :
+dayName = "Friday"
+break;
+case 7:
+dayName = "Saturday"
+break;
+default:
+dayName = "Not Allowed"
 }
