@@ -88,15 +88,15 @@ console.log(maxNum)
 // example below
 function countUpp(val){
     if (val > 10){
-        console.log(val)
-        countUpp(val + 1)
+        console.log(val);
+        countUpp(val + 1);
     }
 }
 countUpp(1);
 
 function checkMatrix(MatrixA,MatrixB){
     if ( MatrixA.length !== MatrixB.length || MatrixA.length[0] !== MatrixB.length[0]){
-        return "This cannot work due to uncorresponding matrix properties"
+        return "This cannot work due to uncorresponding matrix properties";
     }
 }
 // learnt how to use the ternary operator 
