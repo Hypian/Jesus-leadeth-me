@@ -67,14 +67,14 @@ function countUp (number){
     } 
 }
 countUp(1);
-function countUp(num){
-    if(num <= 10){  //  condition understanding how the code should work
+function countDownn(num){
+    if(num > 1){  //  condition understanding how the code should work
         console.log(num);
-        countUp(num+1);// recurse
+        countUp(num-1);// recurse
     }
     
 }
-countUp(1);
+countDown(10);
 // arrays 
 const myArray = [1,2,3,4,5,6,7,8,9]
 var fillled = myArray.fill(0)
