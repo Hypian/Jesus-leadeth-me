@@ -194,12 +194,12 @@ case 6 :
 dayName = "Friday"
 break;
 case 7:
-dayName = "Saturday"
+dayName = "Saturday";
 break;
 default:
-dayName = "Not Allowed"
+dayName = "Not Allowed";
 }
-console.log(`The day of the week is ${dayName}`)
+console.log(`The day of the week is ${dayName}`);
 //Simulate a traffic light with three states (red, yellow, green) and print the
 // color of the light when a number (1-3) is input.
 // we will need two variable colorLight and numero
@@ -213,9 +213,9 @@ case 2 :
 resultant = "Yellow";
 break;
 case 3 :
-resultant = "Green"
+resultant = "Green";
 break;
 default :
-resultant = "Not Allowed Here"
+resultant = "Not Allowed Here";
 };
-console.log(`The color is ${resultant}`)
+console.log(`The color is ${resultant}`);
