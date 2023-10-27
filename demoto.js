@@ -207,10 +207,10 @@ var numero = 1;
 var resultant ;
 switch(numero){
 case 1 :
-resultant = "Red"
+resultant = "Red";
 break;
 case 2 :
-resultant = "Yellow"
+resultant = "Yellow";
 break;
 case 3 :
 resultant = "Green"
