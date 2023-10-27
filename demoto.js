@@ -217,5 +217,5 @@ resultant = "Green"
 break;
 default :
 resultant = "Not Allowed Here"
-}
+};
 console.log(`The color is ${resultant}`)
