@@ -219,3 +219,8 @@ default :
 resultant = "Not Allowed Here";
 };
 console.log(`The color is ${resultant}`);
+// adding a method that converts a string to array
+// it is the Array.from method 
+myString = "I dont like money";
+myArray = Array.from(myString);
+console.log(myArray)// this will give out an arrayof all the values be it space comma etc
