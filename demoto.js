@@ -232,3 +232,7 @@ var itsString = herArray.join(_) // here i use underscore to separate the charac
 var str = "000707"
 const num = parseInt(str)
 console.log(num)// this will output the number 707
+// the typeof method returns the type of data of a js variable
+// the typeof operator is used to determinea the data type of a certain object
+const myObjj = {name : "brian" , locational : "kicukiro"};
+console.log(typeof myObjj); //  this will return object 
