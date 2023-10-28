@@ -236,3 +236,8 @@ console.log(num)// this will output the number 707
 // the typeof operator is used to determinea the data type of a certain object
 const myObjj = {name : "brian" , locational : "kicukiro"};
 console.log(typeof myObjj); //  this will return object 
+// we can use Math.max and Math.min to know the biggest num and smallest in an array respectively
+const itsArray = [1,2,3,4,5,6,7,8,8,9]
+const maxNom = Math.max(...itsArray)
+const minNom = Math.min(...itsArray)
+console.log("the numbers are", maxNom + minNom)
