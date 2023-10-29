@@ -266,3 +266,13 @@ switch (operand){
     outPut = "Not included here bro"
 }
 console.log(outPut)
+
+// recaps on arrow functions
+const greet = (/*param*/) =>{
+    console.log("Hello World")
+}
+const addiTion = (a,b,c) => {
+    return (a + b + c)
+}
+console.log((addiTion(1,2,3)))
+greet();
