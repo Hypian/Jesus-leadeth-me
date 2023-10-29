@@ -241,3 +241,28 @@ const itsArray = [1,2,3,4,5,6,7,8,8,9]
 const maxNom = Math.max(...itsArray)
 const minNom = Math.min(...itsArray)
 console.log("the numbers are", maxNom + minNom)
+// do i remember to write the simple calculator that operates between two
+// two numbers lets see
+// two num vars must return output of operations
+
+const num1 = 4;
+const num2 = 6;
+var operand = prompt("-");
+var outPut;
+switch (operand){
+    case "+" : 
+    outPut = num1 + num2;
+    break;
+    case "-" :
+    outPut = num2 - num1
+    break;
+    case "/" :
+    outPut = num2/num1
+    break;
+    case "*" :
+    outPut = num2 * num1
+    break;
+    default:
+    outPut = "Not included here bro"
+}
+console.log(outPut)
