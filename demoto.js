@@ -293,7 +293,6 @@ let testArr = [1, 2, 3, 4, 5];
 console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
-
 // i shudwrite an equivalent of an arrow funct of this one 
 function square(x) {
   return x * x;
@@ -302,3 +301,14 @@ function square(x) {
 const square = (x)=> {
     return x * x;
 }
+// learning how to use the map method 
+// learning how to use the map method in js so basically its used to like add or introduce a particular operation be it multiplication or a certain function into an array
+// for example im going to create a function that carries out addition of the value 10 
+function addingTen (val){
+    return val + 10;
+}
+console.log(addingTen(2))
+// after this i will create an array and i will use the map to add ten to each meamber of the array
+const theirArray = [1,2,3,4,5,6,7,89,0]
+const theirNewArray = theirArray.map(addingTen)
+console.log(theirNewArray)
