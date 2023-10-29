@@ -293,3 +293,12 @@ let testArr = [1, 2, 3, 4, 5];
 console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
+
+// i shudwrite an equivalent of an arrow funct of this one 
+function square(x) {
+  return x * x;
+}
+// param = x name of function = square
+const square = (x)=> {
+    return x * x;
+}
