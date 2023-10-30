@@ -335,3 +335,11 @@ for(let i = 0 ; i < 10 ; i++){
     hisArray.push(i)
 }
 console.log(hisArray)
+// can i use recursion to create a countdown function
+function countDown(numero){
+    if(numero > 0){
+        console.log(numero)
+        countDown(numero - 1)
+    }
+ }
+ countDown(10)
