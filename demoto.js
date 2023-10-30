@@ -312,3 +312,17 @@ console.log(addingTen(2))
 const theirArray = [1,2,3,4,5,6,7,89,0]
 const theirNewArray = theirArray.map(addingTen)
 console.log(theirNewArray)
+//im going to create a constructor function in js and name it car and use diff brands
+// to practice and how to access its diff properties to be used in a new object
+function Car (brand,horsePower){
+    this.brand = brand;
+    this.horsePower = horsePower;
+    this.carInfo = () =>{
+        console.log(`This car is a ${this.brand} and has ${this.horsePower} of power`);// here i use an arrow function because i love them lol
+    }
+}
+// to acces the diff properties to create multiple instances of objects we can use the new keyword
+const car1 = new Car ('Subaru',10000);
+const car2 = new Car ('Benz',12000);
+console.log(car2.brand)
+car2.carInfo();
