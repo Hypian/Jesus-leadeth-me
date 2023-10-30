@@ -347,3 +347,10 @@ function countDown(numero){
  for (let i = 0 ; i < 5; i++){
     console.log(i)
 }
+// the parse int helps one convert a string to an integer but also used
+// to create a base of a number out of a string 
+function converToInteger (str){
+    return parseInt(str,2)
+}
+const newBase = converToInteger("10011",2)
+console.log(newBase)
