@@ -343,3 +343,7 @@ function countDown(numero){
     }
  }
  countDown(10)
+ // another for loop
+ for (let i = 0 ; i < 5; i++){
+    console.log(i)
+}
