@@ -326,3 +326,12 @@ const car1 = new Car ('Subaru',10000);
 const car2 = new Car ('Benz',12000);
 console.log(car2.brand)
 car2.carInfo();
+// revision on a for loop
+// it is used to create a certain repeating block of code 
+// it can also be used in an array like below
+
+const hisArray = []
+for(let i = 0 ; i < 10 ; i++){
+    hisArray.push(i)
+}
+console.log(hisArray)
