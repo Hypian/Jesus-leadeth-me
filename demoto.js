@@ -67,36 +67,36 @@ function countUp (number){
     } 
 }
 countUp(1);
-function countUp(num){
-    if(num <= 10){  //  condition understanding how the code should work
+function countDownn(num){
+    if(num > 1){  //  condition understanding how the code should work
         console.log(num);
-        countUp(num+1);// recurse
+        countUp(num-1);// recurse
     }
     
 }
-countUp(1);
+countDown(10);
 // arrays 
 const myArray = [1,2,3,4,5,6,7,8,9]
 var fillled = myArray.fill(0)
 console.log(fillled)
 let yas = [1,2,3,4,5,6,7,8,9,0]
-var newzVal = yas.filter(num => num % 2 === 0)
-console.log(newzVal)
-var maxNum = Math.min(...yas)
+var newzVal = yas.filter(num => num % 2 === 0);
+console.log(newzVal);
+var maxNum = Math.min(...yas);
 console.log(maxNum)
 // recap on recursive function ; this is a function that recalls itself with a condition and recursive or (base code)
 // example below
 function countUpp(val){
     if (val > 10){
-        console.log(val)
-        countUpp(val + 1)
+        console.log(val);
+        countUpp(val + 1);
     }
 }
 countUpp(1);
 
 function checkMatrix(MatrixA,MatrixB){
     if ( MatrixA.length !== MatrixB.length || MatrixA.length[0] !== MatrixB.length[0]){
-        return "This cannot work due to uncorresponding matrix properties"
+        return "This cannot work due to uncorresponding matrix properties";
     }
 }
 // learnt how to use the ternary operator 
@@ -217,5 +217,145 @@ resultant = "Green";
 break;
 default :
 resultant = "Not Allowed Here";
+<<<<<<< HEAD
 }
 console.log(`The color is ${resultant}`);
+=======
+};
+console.log(`The color is ${resultant}`);
+// adding a method that converts a string to array
+// it is the Array.from method 
+myString = "I dont like money";
+myArray = Array.from(myString);
+console.log(myArray)// this will give out an arrayof all the values be it space comma etc
+// now i can also make the opposite of the above and make an array a string lol
+// this can be achieved using the .join method
+var herArray = [1,2,3,4,5,6,7,8,9,0]
+var itsString = herArray.join(_) // here i use underscore to separate the characters
+// convert string into Number
+var str = "000707"
+const num = parseInt(str)
+console.log(num)// this will output the number 707
+// the typeof method returns the type of data of a js variable
+// the typeof operator is used to determinea the data type of a certain object
+const myObjj = {name : "brian" , locational : "kicukiro"};
+console.log(typeof myObjj); //  this will return object 
+// we can use Math.max and Math.min to know the biggest num and smallest in an array respectively
+const itsArray = [1,2,3,4,5,6,7,8,8,9]
+const maxNom = Math.max(...itsArray)
+const minNom = Math.min(...itsArray)
+console.log("the numbers are", maxNom + minNom)
+// do i remember to write the simple calculator that operates between two
+// two numbers lets see
+// two num vars must return output of operations
+
+const num1 = 4;
+const num2 = 6;
+var operand = prompt("-");
+var outPut;
+switch (operand){
+    case "+" : 
+    outPut = num1 + num2;
+    break;
+    case "-" :
+    outPut = num2 - num1
+    break;
+    case "/" :
+    outPut = num2/num1
+    break;
+    case "*" :
+    outPut = num2 * num1
+    break;
+    default:
+    outPut = "Not included here bro"
+}
+console.log(outPut)
+
+// recaps on arrow functions
+const greet = (/*param*/) =>{
+    console.log("Hello World")
+}
+const addiTion = (a,b,c) => {
+    return (a + b + c)
+}
+console.log((addiTion(1,2,3)))
+greet();
+//Stand in line courtesy of freecode camp this code demonstates queues in js 
+function nextInLine(arr, item) {
+  // Only change code below this line
+  arr.push(item)
+  
+  return arr.shift();
+  
+  // Only change code above this line
+}
+
+// Setup
+let testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
+// i shudwrite an equivalent of an arrow funct of this one 
+function square(x) {
+  return x * x;
+}
+// param = x name of function = square
+const square = (x)=> {
+    return x * x;
+}
+// learning how to use the map method 
+// learning how to use the map method in js so basically its used to like add or introduce a particular operation be it multiplication or a certain function into an array
+// for example im going to create a function that carries out addition of the value 10 
+function addingTen (val){
+    return val + 10;
+}
+console.log(addingTen(2))
+// after this i will create an array and i will use the map to add ten to each meamber of the array
+const theirArray = [1,2,3,4,5,6,7,89,0]
+const theirNewArray = theirArray.map(addingTen)
+console.log(theirNewArray)
+//im going to create a constructor function in js and name it car and use diff brands
+// to practice and how to access its diff properties to be used in a new object
+function Car (brand,horsePower){
+    this.brand = brand;
+    this.horsePower = horsePower;
+    this.carInfo = () =>{
+        console.log(`This car is a ${this.brand} and has ${this.horsePower} of power`);// here i use an arrow function because i love them lol
+    }
+}
+// to acces the diff properties to create multiple instances of objects we can use the new keyword
+const car1 = new Car ('Subaru',10000);
+const car2 = new Car ('Benz',12000);
+console.log(car2.brand)
+car2.carInfo();
+// revision on a for loop
+// it is used to create a certain repeating block of code 
+// it can also be used in an array like below
+
+const hisArray = []
+for(let i = 0 ; i < 10 ; i++){
+    hisArray.push(i)
+}
+console.log(hisArray)
+// can i use recursion to create a countdown function
+function countDown(numero){
+    if(numero > 0){
+        console.log(numero)
+        countDown(numero - 1)
+    }
+ }
+ countDown(10)
+ // another for loop
+ for (let i = 0 ; i < 5; i++){
+    console.log(i)
+}
+// the parse int helps one convert a string to an integer but also used
+// to create a base of a number out of a string 
+function converToInteger (str){
+    return parseInt(str,2)
+}
+const newBase = converToInteger("10011",2)
+console.log(newBase)
+>>>>>>> ec0c487e98738e757e0dd8072c8fa67c2da1ef5a
