@@ -342,8 +342,8 @@ console.log(hisArray)
 // can i use recursion to create a countdown function
 function countDown(numero){
     if(numero > 0){
-        console.log(numero)
-        countDown(numero - 1)
+        console.log(numero);
+        countDown(numero - 1);
     }
  }
  countDown(10)
@@ -356,6 +356,6 @@ function countDown(numero){
 function converToInteger (str){
     return parseInt(str,2)
 }
-const newBase = converToInteger("10011",2)
+const newBase = converToInteger("10011",2);
 console.log(newBase)
 >>>>>>> ec0c487e98738e757e0dd8072c8fa67c2da1ef5a
