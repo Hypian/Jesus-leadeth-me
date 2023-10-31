@@ -176,28 +176,28 @@ const dayNum  = (6);
 let dayName;
 switch(dayNum){
 case 1 :
-dayName = "Sunday"
+dayName = "Sunday";
 break;
 case 2 : 
-dayName = "Monday"
+dayName = "Monday";
 break;
 case 3 :
-dayName = "Tuesday"
+dayName = "Tuesday";
 break;
 case 4 : 
-dayName = "Wednesday"
+dayName = "Wednesday";
 break;
 case 5 :
-dayName = "Thursday"
+dayName = "Thursday";
 break;
 case 6 :
-dayName = "Friday"
+dayName = "Friday";
 break;
 case 7:
-dayName = "Saturday"
+dayName = "Saturday";
 break;
 default:
-dayName = "Not Allowed"
+dayName = "Not Allowed";
 }
 console.log(`The day of the week is ${dayName}`);
 //Simulate a traffic light with three states (red, yellow, green) and print the
@@ -207,15 +207,15 @@ var numero = 1;
 var resultant ;
 switch(numero){
 case 1 :
-resultant = "Red"
+resultant = "Red";
 break;
 case 2 :
-resultant = "Yellow"
+resultant = "Yellow";
 break;
 case 3 :
-resultant = "Green"
+resultant = "Green";
 break;
 default :
-resultant = "Not Allowed Here"
+resultant = "Not Allowed Here";
 }
 console.log(`The color is ${resultant}`);
