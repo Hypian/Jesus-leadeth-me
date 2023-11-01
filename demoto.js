@@ -326,7 +326,7 @@ function Car (brand,horsePower){
     }
 }
 // to acces the diff properties to create multiple instances of objects we can use the new keyword
-const car1 = new Car ('Subaru',10000);
+const car1 = new Car ('Corvette',10000);
 const car2 = new Car ('Benz',12000);
 console.log(car2.brand)
 car2.carInfo();
