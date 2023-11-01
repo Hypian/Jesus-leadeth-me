@@ -352,5 +352,6 @@ function countDown(numero){
 function converToInteger (str){
     return parseInt(str,2)
 }
-const newBase = converToInteger("10011",2)
-console.log(newBase)
+const newBase = converToInteger("10011",2);
+console.log(newBase);
+
