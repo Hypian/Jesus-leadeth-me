@@ -358,3 +358,10 @@ function converToInteger (str){
 }
 const newBase = converToInteger("10011",2)
 console.log(newBase)
+// create a temperature conversion algorithm with a prompt box 
+
+const convertToCel = (fahr) =>{
+    return  (fahr-32) *5/9
+}
+console.log(convertToCel(19));
+const userinput = prompt("Enter temperature in fahrenheit")
