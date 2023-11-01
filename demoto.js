@@ -346,10 +346,10 @@ function countDown(numero){
         countDown(numero - 1);
     }
  }
- countDown(10)
+ countDown(10);
  // another for loop
  for (let i = 0 ; i < 5; i++){
-    console.log(i)
+    console.log(i);
 }
 // the parse int helps one convert a string to an integer but also used
 // to create a base of a number out of a string 
