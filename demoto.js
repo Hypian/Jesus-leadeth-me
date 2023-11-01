@@ -176,22 +176,22 @@ const dayNum  = (6);
 let dayName;
 switch(dayNum){
 case 1 :
-dayName = "Sunday"
+dayName = "Sunday";
 break;
 case 2 : 
-dayName = "Monday"
+dayName = "Monday";
 break;
 case 3 :
-dayName = "Tuesday"
+dayName = "Tuesday";
 break;
 case 4 : 
-dayName = "Wednesday"
+dayName = "Wednesday";
 break;
 case 5 :
-dayName = "Thursday"
+dayName = "Thursday";
 break;
 case 6 :
-dayName = "Friday"
+dayName = "Friday";
 break;
 case 7:
 dayName = "Saturday";
@@ -217,6 +217,10 @@ resultant = "Green";
 break;
 default :
 resultant = "Not Allowed Here";
+<<<<<<< HEAD
+}
+console.log(`The color is ${resultant}`);
+=======
 };
 console.log(`The color is ${resultant}`);
 // adding a method that converts a string to array
@@ -338,8 +342,8 @@ console.log(hisArray)
 // can i use recursion to create a countdown function
 function countDown(numero){
     if(numero > 0){
-        console.log(numero)
-        countDown(numero - 1)
+        console.log(numero);
+        countDown(numero - 1);
     }
  }
  countDown(10)
@@ -352,6 +356,5 @@ function countDown(numero){
 function converToInteger (str){
     return parseInt(str,2)
 }
-const newBase = converToInteger("10011",2);
-console.log(newBase);
-
+const newBase = converToInteger("10011",2)
+console.log(newBase)
