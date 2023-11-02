@@ -364,3 +364,8 @@ const convertToCel = (fahr) =>{
 }
 console.log(convertToCel(19));
 const userinput = prompt("Enter temperature in fahrenheit")
+// typos
+let receivables = 10;
+let payables = 8;
+let netWorkingCapital = receivables - payables;
+console.log(`Net working capital is: ${netWorkingCapital}`);
