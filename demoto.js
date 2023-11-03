@@ -369,3 +369,11 @@ let receivables = 10;
 let payables = 8;
 let netWorkingCapital = receivables - payables;
 console.log(`Net working capital is: ${netWorkingCapital}`);
+// the reduce can be used to find sums in an array through a series of operations
+const values = [12, 45, 32, 7, 98, 53];
+const max = values.reduce((accumulator, currentValue) => Math.max(accumulator, currentValue), values[0]);
+console.log(max); // Output: 98
+const itsVals = [12, 45, 32, 7, 98, 53]
+const maxNumber = Math.max(...itsVals)
+console.log(maxNumber)// output : 98
+// same output
