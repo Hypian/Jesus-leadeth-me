@@ -42,13 +42,13 @@ const y = parseFloat(prompt("Enter a number:"));
     // use the some and filter keywords 
 // filter 
 const myObj = [1,3,5,7,9]
-const evenNumbers = myObj.filter(num => num % 2 === 1)
-console.log(evenNumbers)
-// some returns true
+const oddNumberss = myObj.filter(num => num % 2 === 1)
+console.log(oddNumberss)
+// some returns an array of odd numbers
 
 const checkEvenNum = myObj.some(num => num % 2 === 0)
-console.log("there are no such numbers;",checkEvenNum)
-
+console.log("there are  such numbers;",checkEvenNum)
+// returns true
 var result = 7 * (true + true);
 console.log(result)
 // recursion in js 
@@ -268,11 +268,11 @@ switch (operand){
     default:
     outPut = "Not included here bro"
 }
-console.log(outPut)
+console.log(outPut);
 
 // recaps on arrow functions
 const greet = (/*param*/) =>{
-    console.log("Hello World")
+    console.log("Hello World");
 }
 const addiTion = (a,b,c) => {
     return (a + b + c)
