@@ -232,8 +232,8 @@ console.log(myArray)// this will give out an arrayof all the values be it space 
 var herArray = [1,2,3,4,5,6,7,8,9,0]
 var itsString = herArray.join(_) // here i use underscore to separate the characters
 // convert string into Number
-var str = "000707"
-const num = parseInt(str)
+var str = "000707";
+const num = parseInt(str);
 console.log(num)// this will output the number 707
 // the typeof method returns the type of data of a js variable
 // the typeof operator is used to determinea the data type of a certain object
