@@ -359,11 +359,25 @@ const newBase = converToInteger("10011",2)
 console.log(newBase)
 // create a temperature conversion algorithm with a prompt box 
 
-const convertToCel = (fahr) =>{
+cconst convertToCel = (fahr) =>{
     return  (fahr-32) *5/9
 }
-console.log(convertToCel(19));
-const userinput = prompt("Enter temperature in fahrenheit")
+convertToCel(19);
+const userInput = prompt("Enter temperature in fahrenheit");
+if (userInput !== null){
+    const fahrenheit = parseFloat(userInput);
+    if (!isNaN (fahrenheit)){
+        const celsius = convertToCel(fahrenheit);
+        alert(`${fahrenheit} degrees Fahrenheit is ${celsius} degrees Celsius.`);
+    }
+    else {
+        alert("Invalid input plz enter a valid number")
+    }
+    
+}else{
+    alert("user cancelled the inut")
+}
+
 // typos
 let receivables = 10;
 let payables = 8;
