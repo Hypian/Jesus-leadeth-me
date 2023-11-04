@@ -378,10 +378,11 @@ const maxNumber = Math.max(...itsVals)
 console.log(maxNumber)// output : 98
 // same output
 // recurring function in js count up with multiplication
+
 function countUp(val){ // function named count up that does what it says with val param
-    if (val <=10){
-        console.log(val);
-        countUp (val * 2)
+    if (val <=10){ // condition that governs the code and instructs when to stop
+        console.log(val); // action (pushing in value of val which is set to one)
+        countUp (val * 2) // base code or recursive 
     }
     
 }
