@@ -359,7 +359,7 @@ const newBase = converToInteger("10011",2)
 console.log(newBase)
 // create a temperature conversion algorithm with a prompt box 
 
-cconst convertToCel = (fahr) =>{
+const convertToCel = (fahr) =>{
     return  (fahr-32) *5/9
 }
 convertToCel(19);
