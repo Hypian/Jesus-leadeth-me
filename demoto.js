@@ -358,8 +358,7 @@ function converToInteger (str){
 const newBase = converToInteger("10011",2)
 console.log(newBase)
 // create a temperature conversion algorithm with a prompt box 
-
-cconst convertToCel = (fahr) =>{
+const convertToCel = (fahr) =>{
     return  (fahr-32) *5/9
 }
 convertToCel(19);
@@ -401,3 +400,13 @@ function countUp(val){ // function named count up that does what it says with va
     
 }
 countUp(1)
+// the in operator is used to check if a certain
+// property is present in an object
+const ourObj = {
+    a:1,
+    b:2,
+    c:3,
+    d:4
+}
+const check = "d" in ourObj
+console.log(check)
