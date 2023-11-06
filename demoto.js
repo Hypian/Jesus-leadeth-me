@@ -401,8 +401,8 @@ function countUp(val){ // function named count up that does what it says with va
     
 }
 countUp(1)
-// the in operator is used to check if a certain
-// property is present in an object
+//the in operator is used to check if a certain
+//property is present in an object
 const ourObj = {
     a:1,
     b:2,
