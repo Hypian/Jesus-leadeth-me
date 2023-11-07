@@ -2,7 +2,7 @@
 var val = "Hello World";
 let hwRegex = /hello/
 let newVal = hwRegex.test(val)
-console.log(newVal)
+console.log(newVal)// this returns a boolean value accordingly
 
 const nyObj = {
     a : 1,
