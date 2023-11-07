@@ -9,7 +9,7 @@ const nyObj = {
     c : 2,
 }
 var hasIt = "name" in nyObj
-console.log(hasIt)
+console.log(hasIt) // the in operator also returns a boolean value
 const number = [1,2,3,4,5,6,7,8,9,10]
 const oddNumbers = number.filter(function(num){
     return num % 2 === 0;
