@@ -1,8 +1,8 @@
 
 var val = "Hello World";
 let hwRegex = /hello/
-let newVal = hwRegex.test(val)
-console.log(newVal)// this returns a boolean value accordingly
+let newVal = hwRegex.test(val)// returns a boolean value accordingly
+console.log(newVal)
 
 const nyObj = {
     a : 1,
