@@ -371,11 +371,11 @@ if (userInput !== null){// if userInput is not null which means  intentional abs
        alert(`${fahrenheit} degrees Fahrenheit is ${celsius} degrees Celsius.`);// this pop up message shows when the functio is met
     }
     else {
-        alert("Invalid input plz enter a valid number")
+        alert("Invalid input plz enter a valid number") // if the code in the above function is not meant due to it not being a number 
     }
     
 }else{
-    alert("user cancelled the inut")
+    alert("user cancelled the inut") // this prompts when the user canceled the prompt
 }
 
 // typos
