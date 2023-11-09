@@ -364,10 +364,10 @@ const convertToCel = (fahr) =>{
 }
 convertToCel(19);
 const userInput = prompt("Enter temperature in fahrenheit"); // this declares the uI variable to constant and initializes it to prompt "xxx"
-if (userInput !== null){// if userInput is not null which means  intentional abscence 
+if (userInput !== null){// if userInput is not null which means  intentional abscence this only runs when user doesnt cancel
     const fahrenheit = parseFloat(userInput); // declare value fahrenheit to constant and set the 
-    if (!isNaN (fahrenheit)){
-        const celsius = convertToCel(fahrenheit);
+    if (!isNaN (fahrenheit)){ // check if fahr is a number using isNaN 
+        const celsius = convertToCel(fahrenheit); // initialize celsius to constant and convert it to fahr as per initail function
        alert(`${fahrenheit} degrees Fahrenheit is ${celsius} degrees Celsius.`);
     }
     else {
