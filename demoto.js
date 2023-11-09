@@ -411,3 +411,7 @@ const ourObj = {
 }
 const check = "d" in ourObj
 console.log(check)
+function checkNum (val){
+    return !isNaN (val)
+}
+console.log(checkNum(22))
