@@ -363,7 +363,7 @@ const convertToCel = (fahr) =>{
     return  (fahr-32) *5/9
 }
 convertToCel(19);
-const userInput = prompt("Enter temperature in fahrenheit");
+const userInput = prompt("Enter temperature in fahrenheit"); // this declares the uI variable to constant and initializes it to prompt "xxx"
 if (userInput !== null){
     const fahrenheit = parseFloat(userInput);
     if (!isNaN (fahrenheit)){
