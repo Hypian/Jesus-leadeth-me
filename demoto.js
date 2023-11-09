@@ -368,7 +368,7 @@ if (userInput !== null){// if userInput is not null which means  intentional abs
     const fahrenheit = parseFloat(userInput); // declare value fahrenheit to constant and set the 
     if (!isNaN (fahrenheit)){ // check if fahr is a number using isNaN 
         const celsius = convertToCel(fahrenheit); // initialize celsius to constant and convert it to fahr as per initail function
-       alert(`${fahrenheit} degrees Fahrenheit is ${celsius} degrees Celsius.`);
+       alert(`${fahrenheit} degrees Fahrenheit is ${celsius} degrees Celsius.`);// this pop up message shows when the functio is met
     }
     else {
         alert("Invalid input plz enter a valid number")
