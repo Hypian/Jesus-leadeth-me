@@ -368,7 +368,7 @@ if (userInput !== null){
     const fahrenheit = parseFloat(userInput);
     if (!isNaN (fahrenheit)){
         const celsius = convertToCel(fahrenheit);
-        alert(`${fahrenheit} degrees Fahrenheit is ${celsius} degrees Celsius.`);
+       alert(`${fahrenheit} degrees Fahrenheit is ${celsius} degrees Celsius.`);
     }
     else {
         alert("Invalid input plz enter a valid number")
