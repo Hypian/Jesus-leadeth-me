@@ -418,4 +418,11 @@ function changeToNum(val){
     
 }
  console.log(changeToNum("7.7"))  
+  // the parseFloat acts similar to the parseInt but it converts to float
+ // a float is a negative or positive number with a decimal its basically used in more accurate
+ //scenarios
+ function changeToNumm(vall){
+    return parseFloat(vall)
+}
+console.log(changeToNumm("7.7"))
 
