@@ -425,4 +425,34 @@ function changeToNum(val){
     return parseFloat(vall)
 }
 console.log(changeToNumm("7.7"))
+// make a 2 variabled calclator with a prompt using switch case 
+// var 1 = 9 , var 2 = 3
+// operands +,*,-,/
 
+const numone = 9;
+const numtwo = 3;
+const operand = "-" ;// this will be the modifieable part of our code 
+let response ;
+const userIinput = prompt("Enter Operand Here") 
+function checkInputs(){
+switch (operand){
+    case "-":
+    response = numone - numtwo;
+    break;
+    case "+":
+    response = numone + numtwo;
+    break;
+     case "/":
+    response = numone / numtwo;
+    break;
+     case "*":
+    response = numone * numtwo;
+    break;
+    default:
+    response = "Not valid";
+    break;
+}
+return response;
+}
+const result = checkInputs();
+console.log(result)
