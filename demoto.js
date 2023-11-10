@@ -411,3 +411,11 @@ const ourObj = {
 }
 const check = "d" in ourObj
 console.log(check)
+// bases x parseInt 
+// the parseint function is used to convert strings into numbers
+function changeToNum(val){
+    return parseInt(val)
+    
+}
+ console.log(changeToNum("7.7"))  
+
