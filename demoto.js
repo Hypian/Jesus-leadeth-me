@@ -355,7 +355,7 @@ function countDown(numero){
 function converToInteger (str){
     return parseInt(str,2)
 }
-const newBase = converToInteger("10011",2)
+const newBase = converToInteger("100111",2)
 console.log(newBase)
 // create a temperature conversion algorithm with a prompt box 
 
@@ -363,19 +363,19 @@ const convertToCel = (fahr) =>{
     return  (fahr-32) *5/9
 }
 convertToCel(19);
-const userInput = prompt("Enter temperature in fahrenheit");
-if (userInput !== null){
-    const fahrenheit = parseFloat(userInput);
-    if (!isNaN (fahrenheit)){
-        const celsius = convertToCel(fahrenheit);
-        alert(`${fahrenheit} degrees Fahrenheit is ${celsius} degrees Celsius.`);
+const userInput = prompt("Enter temperature in fahrenheit"); // this declares the uI variable to constant and initializes it to prompt "xxx"
+if (userInput !== null){// if userInput is not null which means  intentional abscence this only runs when user doesnt cancel
+    const fahrenheit = parseFloat(userInput); // declare value fahrenheit to constant and set the 
+    if (!isNaN (fahrenheit)){ // check if fahr is a number using isNaN 
+        const celsius = convertToCel(fahrenheit); // initialize celsius to constant and convert it to fahr as per initail function
+       alert(`${fahrenheit} degrees Fahrenheit is ${celsius} degrees Celsius.`);// this pop up message shows when the function above is met
     }
     else {
-        alert("Invalid input plz enter a valid number")
+        alert("Invalid input plz enter a valid number") // if the code in the above function is not meant due to it not being a number 
     }
     
 }else{
-    alert("user cancelled the inut")
+    alert("user cancelled the inut") // this prompts when the user canceled the prompt
 }
 
 // typos
@@ -411,48 +411,3 @@ const ourObj = {
 }
 const check = "d" in ourObj
 console.log(check)
-// bases x parseInt 
-// the parseint function is used to convert strings into numbers
-function changeToNum(val){
-    return parseInt(val)
-    
-}
- console.log(changeToNum("7.7"))  
-  // the parseFloat acts similar to the parseInt but it converts to float
- // a float is a negative or positive number with a decimal its basically used in more accurate
- //scenarios
- function changeToNumm(vall){
-    return parseFloat(vall)
-}
-console.log(changeToNumm("7.7"))
-// make a 2 variabled calclator with a prompt using switch case 
-// var 1 = 9 , var 2 = 3
-// operands +,*,-,/
-
-const numone = 9;
-const numtwo = 3;
-const operand = "-" ;// this will be the modifieable part of our code 
-let response ;
-const userIinput = prompt("Enter Operand Here") 
-function checkInputs(){
-switch (operand){
-    case "-":
-    response = numone - numtwo;
-    break;
-    case "+":
-    response = numone + numtwo;
-    break;
-     case "/":
-    response = numone / numtwo;
-    break;
-     case "*":
-    response = numone * numtwo;
-    break;
-    default:
-    response = "Not valid";
-    break;
-}
-return response;
-}
-const result = checkInputs();
-console.log(result)
