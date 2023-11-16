@@ -420,8 +420,8 @@ function multiplyAll(arr) {
       product *= arr[i][j]
     }
   }
-    // Only change code above this line
-    return product;
+    // Only change code above this line:
+    return product:
   }
   
   multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
