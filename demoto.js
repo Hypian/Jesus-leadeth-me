@@ -99,7 +99,7 @@ function checkMatrix(MatrixA,MatrixB){
         return "This cannot work due to uncorresponding matrix properties";
     }
 }
-// learnt how to use the ternary operator 
+// learnt how to use the ternary operator instead of if else or switch
 const grade = 45
 const result = (grade >80) ? "D1" 
  : (grade > 60 && grade < 80) ? "Pass" : "Fail"
