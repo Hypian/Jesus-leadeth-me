@@ -425,3 +425,12 @@ function multiplyAll(arr) {
   }
   
   multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+  // a constructor function about computers
+function Computer(processor,gpu,refreshrate){
+    this.gpu = gpu;
+    this.processor = processor;
+    this.refreshrate = refreshrate;
+   console.log(`I have a crush on the new ryzen ${this.processor}`)
+}
+var NelComp = new Computer("Ryzen5","1300series",500)
+console.log(NelComp)
