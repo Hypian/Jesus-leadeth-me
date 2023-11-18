@@ -23,7 +23,7 @@ console.log(someEvenNums)
 // a js program that checks if y is +,- or 0 and displays an appropraite message
 let x = [1,2,3,4,-4,0,7]
 const checkNum = y.filter(function(num){
-    return num % 2 === 0;
+    return num%2 === 0;
 })
 console.log(checkNum)
 const y = parseFloat(prompt("Enter a number:"));
@@ -99,7 +99,7 @@ function checkMatrix(MatrixA,MatrixB){
         return "This cannot work due to uncorresponding matrix properties";
     }
 }
-// learnt how to use the ternary operator 
+// learnt how to use the ternary operator instead of if else or switch
 const grade = 45
 const result = (grade >80) ? "D1" 
  : (grade > 60 && grade < 80) ? "Pass" : "Fail"
@@ -112,7 +112,7 @@ function checkEqual(a, b) {
   
   checkEqual(1, 2);
 // using some op and filter 
-// filter  
+// filter function 
 const newArrayy = [1,2,3,4,5,6,7,8,9]
 const newVall = newArrayy.filter(num => num % 2 === 1)
 console.log(newVal)
@@ -135,7 +135,7 @@ let answer = wordss.match(myRegex)
 console.log(answer)
 // a hyphen can be used to specify range of scope to be matched
 let quoteSample = "The quick brown fox jumps over the lazy dog.";
-let alphabetRegex = /[a-z]/ig; // Change this line
+let alphabetRegex = /[a-z]/ig; // Change this line of code
 let result = quoteSample.match(alphabetRegex); // Change this line
 // using the caret to exclude what to be matched(negated characters)
 let quoteSamplee = "3 blind mice.";
@@ -378,7 +378,7 @@ if (userInput !== null){// if userInput is not null which means  intentional abs
     alert("user cancelled the inut") // this prompts when the user canceled the prompt
 }
 
-// typos
+// typos debugging
 let receivables = 10;
 let payables = 8;
 let netWorkingCapital = receivables - payables;
