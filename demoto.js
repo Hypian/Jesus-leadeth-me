@@ -49,7 +49,7 @@ console.log(oddNumberss)
 const checkEvenNum = myObj.some(num => num % 2 === 0)
 console.log("there are  such numbers;",checkEvenNum)
 // returns true
-var result = 7 * (true + true);
+var result = 7 * (true + true); this will return 14 bcz true = 1
 console.log(result)
 // recursion in js 
 function countDown(number){
