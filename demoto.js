@@ -432,7 +432,7 @@ function Computer(processor,gpu,refreshrate){
     this.refreshrate = refreshrate;
    console.log(`I have a crush on the new ryzen ${this.processor}`)
 }
-var NelComp = new Computer("Ryzen5","1300series",500)
+var NelComp = new Computer("Ryzen5","1300series",500) // object instance created
 console.log(NelComp)
 // an algorithm that converts time in 24 hour format to 12 hours format
 function convertTo24Hourf(time12hours){
