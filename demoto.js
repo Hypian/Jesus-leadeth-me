@@ -434,3 +434,18 @@ function Computer(processor,gpu,refreshrate){
 }
 var NelComp = new Computer("Ryzen5","1300series",500)
 console.log(NelComp)
+// an algorithm that converts time in 24 hour format to 12 hours format
+function convertTo24Hourf(time12hours){
+    const [time,modifier] = time12hours.split(' ');
+    let [hours,minutes] = time.split(':');
+    console.log(time,modifier,hours,minutes)
+    if (hours === '12'){
+        hours = '00';
+    }
+    if (modifier === 'PM'){
+        hours = String(Number(hours) + 12)
+    }
+    return `${hours}:${minutes}`;
+}
+const time24 = convertTo24Hourf('03:45 AM')
+console.log(time24)
