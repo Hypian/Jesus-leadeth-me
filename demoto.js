@@ -449,3 +449,13 @@ function convertTo24Hourf(time12hours){
 }
 const time24 = convertTo24Hourf('03:45 AM')
 console.log(time24) // to be revised again 
+// function of a regex
+function regularExp(){
+ 
+Let regex = /aeiou/ gi
+return regex;
+
+}
+var string = "hello wierd butt"
+var truth = regularExp()
+var answer =truth.test(string)
