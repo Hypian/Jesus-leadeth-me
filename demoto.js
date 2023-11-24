@@ -202,7 +202,7 @@ dayName = "Not Allowed";
 console.log(`The day of the week is ${dayName}`);
 //Simulate a traffic light with three states (red, yellow, green) and print the
 // color of the light when a number (1-3) is input.
-// we will need two variable colorLight and numero
+// we will need two variable colorLight and numero;
 var numero = 1;
 var resultant ;
 switch(numero){
