@@ -378,7 +378,7 @@ if (userInput !== null){// if userInput is not null which means  intentional abs
     alert("user cancelled the inut") // this prompts when the user canceled the prompt
 }
 
-// typos debugging
+// typos debugging;
 let receivables = 10;
 let payables = 8;
 let netWorkingCapital = receivables - payables;
