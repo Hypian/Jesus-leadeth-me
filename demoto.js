@@ -459,3 +459,14 @@ return regex;
 var string = "hello wierd butt"
 var truth = regularExp()
 var answer =truth.test(string) // this returns the boolean false because the vowel a is not present in the string truth
+// this function creates a regex and is returned and used in the variables below to match it with the regex truth this returns an array of the vowels available respectively but with no guaranteed order
+function regularExp() {
+  let regex = /aeiou/gi;
+  return regex;
+}
+
+var string = "hello weird butt";
+var truth = regularExp();
+var answer = string.match(truth);
+
+console.log(answer);
