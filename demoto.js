@@ -477,3 +477,4 @@ console.log(answer);
 var mySelf = "i like jordan shoes" 
 var splitting = mySelf.split(' ')
 console.log(splitting)
+// this returns an array of split strings
