@@ -458,4 +458,4 @@ return regex;
 }
 var string = "hello wierd butt"
 var truth = regularExp()
-var answer =truth.test(string)
+var answer =truth.test(string) // this returns the boolean false because the vowel a is not present in the string truth
