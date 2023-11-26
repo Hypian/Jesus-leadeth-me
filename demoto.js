@@ -96,7 +96,7 @@ countUpp(1);
 
 function checkMatrix(MatrixA,MatrixB){
     if ( MatrixA.length !== MatrixB.length || MatrixA.length[0] !== MatrixB.length[0]){
-        return "This cannot work due to uncorresponding matrix properties";
+        return "error due to dimensional inequality";
     }
 }
 // learnt how to use the ternary operator instead of if else or switch
