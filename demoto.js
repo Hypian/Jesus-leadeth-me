@@ -472,7 +472,7 @@ var truth = regularExp();
 var answer = string.match(truth);
 
 console.log(answer);
-// the split method
+// the split method is described below
 
 var mySelf = "i like jordan shoes" 
 var splitting = mySelf.split(' ')
