@@ -421,7 +421,7 @@ function multiplyAll(arr) {
     }
   }
     // Only change code above this line
-    return product
+    return product;
   }
   
   multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
