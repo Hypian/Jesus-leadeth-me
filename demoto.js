@@ -293,7 +293,7 @@ function nextInLine(arr, item) {
 let testArr = [1, 2, 3, 4, 5]
 
 // Display code
-console.log("Before: " + JSON.stringify(testArr));
+console.log("Before: "+JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
 // i shudwrite an equivalent of an arrow funct of this one 
