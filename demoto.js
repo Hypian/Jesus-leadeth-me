@@ -480,3 +480,6 @@ var splitting = mySelf.split(' ')
 console.log(splitting)
 // this returns an array of split strings
 // continuation of split usage in js
+let myFun = "how are u doing today"
+let splitted =  myFun.split(" ")
+console.log(splitted)
