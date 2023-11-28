@@ -452,13 +452,13 @@ console.log(time24) // to be revised again
 // function of a regex
 function regularExp(){
  
-Let regex = /aeiou/ gi
+let regex = /aeiou/gi
 return regex;
 
 }
 var string = "hello wierd butt"
 var truth = regularExp()
-var answer =truth.test(string) // this returns the boolean false because the vowel a is not present in the string "string"
+var answerrr =truth.test(string) // this returns the boolean false because the vowel a is not present in the string "string"
 
 
 // this function creates a regex and is returned and used in the variables below to match it with the regex truth this returns an array of the vowels available respectively but with no guaranteed order
@@ -469,9 +469,10 @@ function regularExp() {
 
 var string = "hello weird butt";
 var truth = regularExp();
-var answer = string.match(truth);
+var answerrrr = string.match(truth);
 
-console.log(answer);
+console.log(answerrrr);
+
 // the split method is described below
 
 var mySelf = "i like jordan shoes" 
