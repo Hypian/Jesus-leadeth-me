@@ -76,7 +76,7 @@ function countDownn(num){
 }
 countDown(10)
 // arrays 
-const myArray = [1,2,3,4,5,6,7,8,9]
+const myArray = [1,2,3,4,5,6,7,8,9,10,11,12,14]
 var fillled = myArray.fill(0)
 console.log(fillled)
 let yas = [1,2,3,4,5,6,7,8,9,0]
