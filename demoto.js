@@ -8,7 +8,7 @@ const nyObj = {
     a : 1,
     c : 2,
 }
-var hasIt = "name" in nyObj
+var hasIt = "name" in nyObj;
 console.log(hasIt) // the in operator also returns a boolean value/false
 const number = [1,2,3,4,5,6,7,8,9,10]
 const oddNumbers = number.filter(function(num){
