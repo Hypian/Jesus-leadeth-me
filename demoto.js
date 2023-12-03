@@ -483,5 +483,13 @@ console.log(splitting)
 let myFun = "how are u doing today"
 let splitted =  myFun.split(" ",3)//a limiter can be added to limit on how much characters can be split into strings
 let myWord = splitted[1]
-
 console.log(splitted)
+
+// daily js commit 
+// recap on ternary operator
+
+var grades = 233
+var statuss = ( grades > 23 ? "distinction" : "fail" )
+console.log(statuss) //  this will log the correspondong
+/* a ternary operator can actually be used to create variables like the way
+the status variable was created (created = declaration and initialization) */
