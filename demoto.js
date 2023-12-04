@@ -130,7 +130,7 @@ console.log(result)
 // now we use the match method
 // this one returns an array of matched strings or null if no matches are found
 let wordss = "I hate Fox , i wish fox were dead, because fox at my friend lol"
-let myRegex = /fox/ig;
+let myRegex = /fox/ig
 let answer = wordss.match(myRegex)
 console.log(answer)
 // a hyphen can be used to specify range of scope to be matched
