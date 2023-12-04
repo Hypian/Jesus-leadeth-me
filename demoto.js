@@ -319,7 +319,7 @@ console.log(theirNewArray)
 // to practice and how to access its diff properties to be used in a new object
 function Car (brand,horsePower){
     this.brand = brand;
-    this.horsePower = horsePower;
+    this.horsePower = horsePower
     this.carInfo = () =>{
         console.log(`This car is a ${this.brand} and has ${this.horsePower} of power`);// here i use an arrow function because i love them lol
     }
