@@ -469,7 +469,7 @@ function regularExp() {
 
 var string = "hello weird butt";
 var truth = regularExp();
-var answerrrr = string.match(truth);
+var answerrrr = string.match(truth)
 
 console.log(answerrrr);
 
