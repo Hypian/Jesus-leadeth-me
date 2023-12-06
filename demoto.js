@@ -493,3 +493,9 @@ var statuss = ( grades > 23 ? "distinction" : "fail" )
 console.log(statuss) //  this will log the correspondong
 /* a ternary operator can actually be used to create variables like the way
 the status variable was created (created = declaration and initialization) */
+// recap on how the const declaration works
+const nim = ['apple','orange','sin','man']
+nim[4] = "branch"
+console.log(nim)
+// so basically in js there is variable declaration and initialization and it can be done using the const
+//and the var and let the cont specifically makes declaration immutable but allows further initialization
