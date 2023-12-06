@@ -498,4 +498,4 @@ const nim = ['apple','orange','sin','man']
 nim[4] = "branch"
 console.log(nim)
 // so basically in js there is variable declaration and initialization and it can be done using the const
-//and the var and let the cont specifically makes further initialization impossible
+// and the var and let the cont specifically makes further binding of both value and variable name difficult
