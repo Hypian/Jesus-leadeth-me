@@ -166,7 +166,7 @@ break;
 case "%":
 answerr = numeroDos % numeroUno;
 default : 
-answerr = "Not Aplicable";
+answerr = "Not Aplicable"
 }
 console.log(`The result of Your Operation is  ${answerr}`)
 // creating Write a program that takes a number (1-7) as input and 
