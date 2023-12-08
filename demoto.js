@@ -123,7 +123,7 @@ console.log(otherVall)
 // i am adding practice on regex or regular expressions lol (test methode)
 var herString = "The bugs in my code arent in my bed ";
 var herRegex = /[aeiou]/;
-var result = herRegex.test(herString)
+var result = herRegex.test(herString);
 console.log(result)
 // regex but match keyword
 // as we saw before the test method or function returns booleans while the match;
