@@ -222,7 +222,7 @@ resultant = "Not Allowed Here";
 console.log(`The color is ${resultant}`);
 
 console.log(`The color is ${resultant}`);
-// adding a method that converts a string to array
+// adding a method that converts a string to array;
 // it is the Array.from method 
 myString = "I dont like money";
 myArray = Array.from(myString);
