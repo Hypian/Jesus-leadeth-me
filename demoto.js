@@ -26,7 +26,7 @@ const checkNum = y.filter(function(num){
     return num%2 === 0
 })
 console.log(checkNum);
-const y = parseFloat(prompt("Enter a number:"))
+const y = parseFloat(prompt("Enter a number:"));
 
 
 
