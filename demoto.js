@@ -92,7 +92,7 @@ function countUpp(val){
         countUpp(val + 1)
     }
 }
-countUpp(1);
+countUpp(1)
 
 function checkMatrix(MatrixA,MatrixB){
     if ( MatrixA.length !== MatrixB.length || MatrixA.length[0] !== MatrixB.length[0]){
