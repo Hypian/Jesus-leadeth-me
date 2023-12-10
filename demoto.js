@@ -25,7 +25,7 @@ let x = [1,2,3,4,-4,0,7]
 const checkNum = y.filter(function(num){
     return num%2 === 0;
 })
-console.log(checkNum);
+console.log(checkNum)
 const y = parseFloat(prompt("Enter a number:"))
 
 
