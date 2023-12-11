@@ -113,7 +113,7 @@ function checkEqual(a, b) {
   checkEqual(1, 2)
 // using some op and filter 
 // filter function 
-const newArrayy = [1,2,3,4,5,6,7,8,9];
+const newArrayy = [1,2,3,4,5,6,7,8,9]
 const newVall = newArrayy.filter(num => num % 2 === 1)
 console.log(newVal)
 // some 
