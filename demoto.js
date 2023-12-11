@@ -126,7 +126,7 @@ var herRegex = /[aeiou]/;
 var result = herRegex.test(herString);
 console.log(result)
 // regex but match keyword;
-// as we saw before the test method or function returns booleans while the match;
+// as we saw before the test method or function returns booleans while the match
 // now we use the match method
 // this one returns an array of matched strings or null if no matches are found;
 let wordss = "I hate Fox , i wish fox were dead, because fox at my friend lol"
