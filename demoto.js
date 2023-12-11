@@ -250,7 +250,7 @@ console.log("the numbers are", maxNom + minNom);
 
 const num1 = 4;
 const num2 = 6;
-var operand = prompt("-");
+var operand = prompt("-")
 var outPut;
 switch (operand){
     case "+" : 
