@@ -136,7 +136,7 @@ console.log(answer)
 // a hyphen can be used to specify range of scope to be matched
 let quoteSample = "The quick brown fox jumps over the lazy dog."
 let alphabetRegex = /[a-z]/ig; // Change this line of code
-let result = quoteSample.match(alphabetRegex); // Change this line
+let result = quoteSample.match(alphabetRegex) // Change this line
 // using the caret to exclude what to be matched(negated characters)
 let quoteSamplee = "3 blind mice.";
 let myRegexz = /[^aeiuo^0-9]/ig; // Change this line
