@@ -125,7 +125,7 @@ var herString = "The bugs in my code arent in my bed ";
 var herRegex = /[aeiou]/
 var result = herRegex.test(herString);
 console.log(result)
-// regex but match keyword
+// regex but match keyword;
 // as we saw before the test method or function returns booleans while the match
 // now we use the match method
 // this one returns an array of matched strings or null if no matches are found;
