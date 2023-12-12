@@ -142,7 +142,7 @@ let quoteSamplee = "3 blind mice."
 let myRegexz = /[^aeiuo^0-9]/ig; // Change this line
 let result =quoteSamplee.match(myRegexz); // Change this line
 console.log(result)
-// simple calculator using switch case statement
+// simple calculator using switch case statement;
 // 4 variables two nums one for the operand and
 //one for the variable of the outcome 
 //it should be done in five minutes
