@@ -46,7 +46,7 @@ const oddNumberss = myObj.filter(num => num % 2 === 1);
 console.log(oddNumberss)
 // some returns an array of odd numbers
 
-const checkEvenNum = myObj.some(num => num % 2 === 0)
+const checkEvenNum = myObj.some(num => num % 2 === 0);
 console.log("there are  such numbers;",checkEvenNum)
 // returns true
 var result = 7 * (true + true);// this will return 14 bcz true = 1
