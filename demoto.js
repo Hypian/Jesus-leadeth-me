@@ -15,7 +15,7 @@ const oddNumbers = number.filter(function(num){
     return num % 2 === 0;
 })
 console.log("odd numbers in the array;",oddNumbers);
-const  words = [1,2,3,4,5,6,7,8,9,0]
+const  words = [1,2,3,4,5,6,7,8,9,0];
 const someEvenNums = words.some(function (num){
     return num % 2===0
 })
