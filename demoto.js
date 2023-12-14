@@ -34,7 +34,7 @@ const y = parseFloat(prompt("Enter a number:"));
        console.log ("Positive integer");
     }
     else if (y = 0){
-      console.log("Zero") 
+      console.log("Zero");
     }
     else{
        console.log("Negative integer") 
