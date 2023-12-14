@@ -21,7 +21,7 @@ const someEvenNums = words.some(function (num){
 })
 console.log(someEvenNums);
 // a js program that checks if y is +,- or 0 and displays an appropraite message
-let x = [1,2,3,4,-4,0,7]
+let x = [1,2,3,4,-4,0,7];
 const checkNum = y.filter(function(num){
     return num%2 === 0
 })
