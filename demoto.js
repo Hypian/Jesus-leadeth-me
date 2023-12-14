@@ -59,7 +59,7 @@ function countDown(number){
         countDown(newNum);
     }
 }
-console.log(countDown(7))
+console.log(countDown(7));
 function countUp (number){
     if (number <= 10){ // condition
     console.log(number)
