@@ -41,7 +41,7 @@ const y = parseFloat(prompt("Enter a number:"));
     }
     // use the some and filter keywords with arrow functions
 // filter 
-const myObj = [1,3,5,7,9]
+const myObj = [1,3,5,7,9];
 const oddNumberss = myObj.filter(num => num % 2 === 1);
 console.log(oddNumberss);
 // some returns an array of odd numbers;
