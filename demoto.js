@@ -257,7 +257,7 @@ switch (operand){
     outPut = num1 + num2;
     break;
     case "-" :
-    outPut = num2 - num1
+    outPut = num2 - num1;
     break;
     case "/" :
     outPut = num2/num1
