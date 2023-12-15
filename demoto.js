@@ -483,7 +483,7 @@ console.log(splitting)
 let myFun = "how are u doing today"
 let splitted =  myFun.split(" ",3)//a limiter can be added to limit on how much characters can be split into strings
 let myWord = splitted[1]
-console.log(splitted)
+console.log(splitted);
 
 // daily js commit 
 // recap on ternary operator
