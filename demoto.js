@@ -37,7 +37,7 @@ const y = parseFloat(prompt("Enter a number:"))
       console.log("Zero");
     }
     else{
-       console.log("Negative integer") 
+       console.log("Negative integer");
     }
     // use the some and filter keywords with arrow functions
 // filter 
