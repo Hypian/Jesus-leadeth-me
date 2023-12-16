@@ -149,7 +149,7 @@ console.log(result)
 const numeroUno = 2;
 const numeroDos = 7;
 let answerr;
- var operand = prompt("-")
+ var operand = prompt("-");
 switch (operand){
 case "+": 
 answerr = numeroDos + numeroUno;
