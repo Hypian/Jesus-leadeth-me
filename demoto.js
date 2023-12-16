@@ -69,7 +69,7 @@ function countUp (number){
 countUp(1);
 function countDownn(num){
     if(num > 1){  //condition understanding how the code should work
-        console.log(num)
+        console.log(num);
         countUp(num-1);// recurse;
     }
     
