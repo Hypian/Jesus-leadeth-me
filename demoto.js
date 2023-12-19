@@ -62,6 +62,7 @@ function countDownn(num){
     
 }
 countDown(10);
+
 // arrays 
 const myArray = [1,2,3,4,5,6,7,8,9,10,11,12,14]
 var fillled = myArray.fill(0)
@@ -71,6 +72,7 @@ var newzVal = yas.filter(num => num % 2 === 0)
 console.log(newzVal)
 var maxNum = Math.min(...yas);
 console.log(maxNum)
+
 // recap on recursive function ; this is a function that recalls itself with a condition and recursive or (base code)
 // example below
 function countUpp(val){
@@ -86,6 +88,8 @@ const grade = 45
 const result = (grade >80) ? "D1" 
  : (grade > 60 && grade < 80) ? "Pass" : "Fail"
 console.log(result)
+
+
 // Added more knowledge on ternary operator and solved problems without chatGpt lol
 function checkEqual(a, b) {
     return a > b || b > a ? "Not Equal" : "Equal";
