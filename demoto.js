@@ -81,11 +81,6 @@ function countUpp(val){
 }
 countUpp(1);
 
-function checkMatrix(MatrixA,MatrixB){
-    if ( MatrixA.length !== MatrixB.length || MatrixA.length[0] !== MatrixB.length[0]){
-        return "error due to dimensional inequality";
-    }
-}
 // learnt how to use the ternary operator instead of if else or switch
 const grade = 45
 const result = (grade >80) ? "D1" 
