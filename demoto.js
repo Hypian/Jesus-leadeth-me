@@ -102,15 +102,21 @@ function checkEqual(a, b) {
 const newArrayy = [1,2,3,4,5,6,7,8,9]
 const newVall = newArrayy.filter(num => num % 2 === 1)
 console.log(newVal)
+
+
 // some 
 const myArrayy = [1,2,3,4,5,6,7,8,9]
 const otherVall = myArrayy.some(num => num < 1)
 console.log(otherVall)
+
+
 // i am adding practice on regex or regular expressions lol (test methode)
 var herString = "The bugs in my code arent in my bed ";
 var herRegex = /[aeiou]/
 var result = herRegex.test(herString);
 console.log(result)
+
+
 // regex but match keyword;
 // as we saw before the test method or function returns booleans while the match
 // now we use the match method
@@ -119,6 +125,8 @@ let wordss = "I hate Fox , i wish fox were dead, because fox at my friend lol"
 let myRegex = /fox/ig
 let answer = wordss.match(myRegex)
 console.log(answer)
+
+
 // a hyphen can be used to specify range of scope to be matched
 let quoteSample = "The quick brown fox jumps over the lazy dog."
 let alphabetRegex = /[a-z]/ig; // Change this line of code
@@ -128,6 +136,8 @@ let quoteSamplee = "3 blind mice."
 let myRegexz = /[^aeiuo^0-9]/ig; // Change this line
 let result =quoteSamplee.match(myRegexz); // Change this line
 console.log(result)
+
+
 // simple calculator using switch case statement;
 // 4 variables two nums one for the operand and
 //one for the variable of the outcome 
