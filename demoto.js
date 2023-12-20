@@ -196,6 +196,8 @@ default:
 dayName = "Not Allowed";
 }
 console.log(`The day of the week is ${dayName}`)
+
+
 //Simulate a traffic light with three states (red, yellow, green) and print the
 // color of the light when a number (1-3) is input.
 // we will need two variable colorLight and numero
@@ -218,6 +220,8 @@ resultant = "Not Allowed Here";
 console.log(`The color is ${resultant}`);
 
 console.log(`The color is ${resultant}`);
+
+
 // adding a method that converts a string to array;
 // it is the Array.from method 
 myString = "I dont like money";
