@@ -511,3 +511,14 @@ function rem(val){
   }
 }
 console.log(rem(3))
+
+// function rem(val){
+  if (!(val % 2 === 0)){
+    return true
+  }
+  else {
+    return false
+    
+  }
+}
+console.log(rem(5))
