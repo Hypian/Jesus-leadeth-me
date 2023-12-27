@@ -77,7 +77,7 @@ console.log(maxNum)
 // example below
 function countUpp(val){
     if (val > 10){
-        console.log(val);
+        console.log(val)
         countUpp(val + 1)
     }
 }
