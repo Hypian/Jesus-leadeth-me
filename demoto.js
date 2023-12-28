@@ -1,4 +1,6 @@
 //Learnt js repo and revision
+
+
 var val = "Hello World"
 let hwRegex = /hello/
 let newVal = hwRegex.test(val) // returns a boolean value accordingly
