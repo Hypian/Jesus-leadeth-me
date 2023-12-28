@@ -322,6 +322,8 @@ function Car (brand,horsePower){
         console.log(`This car is a ${this.brand} and has ${this.horsePower} of power`);// here i use an arrow function because i love them lol
     }
 }
+
+
 // to acces the diff properties to create multiple instances of objects we can use the new keyword
 const car1 = new Car ('Corvette',10000);
 const car2 = new Car ('Benz',12000);
@@ -355,8 +357,9 @@ function converToInteger (str){
 }
 const newBase = converToInteger("100111",2)
 console.log(newBase)
-// create a temperature conversion algorithm with a prompt box 
 
+
+// create a temperature conversion algorithm with a prompt box 
 const convertToCel = (fahr) =>{
     return  (fahr-32) *5/9
 }
