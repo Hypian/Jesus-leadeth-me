@@ -217,9 +217,7 @@ default :
 resultant = "Not Allowed Here";
 
 }
-console.log(`The color is ${resultant}`);
-
-console.log(`The color is ${resultant}`);
+console.log(`The color is ${resultant}`)
 
 
 // adding a method that converts a string to array;
