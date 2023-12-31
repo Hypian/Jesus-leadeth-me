@@ -52,7 +52,7 @@ console.log(countDown(7))
 function countUp (number){
     if (number <= 10){ // condition;
     console.log(number);
-    countUp(number + 1) // recurse;
+    countUp(number + 1) // recurse
     } 
 }
 countUp(1);
