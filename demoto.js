@@ -1,4 +1,4 @@
-//Learnt js repo and revision
+//Learnt js repo and revision;
 
 
 var val = "Hello World"
