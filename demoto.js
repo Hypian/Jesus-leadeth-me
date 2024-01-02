@@ -56,14 +56,7 @@ function countUp (number){
     } 
 }
 countUp(1);
-function countDownn(num){
-    if(num > 1){  //condition understanding how the code should work;
-        console.log(num);
-        countUp(num-1);// recurse;
-    }
-    
-}
-countDown(10);
+
 
 // arrays 
 const myArray = [1,2,3,4,5,6,7,8,9,10,11,12,14];
