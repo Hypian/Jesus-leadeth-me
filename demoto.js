@@ -420,7 +420,7 @@ function multiplyAll(arr) {
     return product;
   }
   
-  multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+  multiplyAll([[1, 8], [3, 4], [5, 6, 7]]);
   // a constructor function about computers
 function Computer(processor,gpu,refreshrate){
     this.gpu = gpu;
