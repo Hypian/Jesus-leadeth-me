@@ -136,7 +136,7 @@ console.log(result)
 // simple calculator using switch case statement
 // 4 variables two nums one for the operand and
 //one for the variable of the outcome 
-//it should be done in five minutes
+
 const numeroUno = 2;
 const numeroDos = 7;
 let answerr;
