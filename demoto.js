@@ -220,7 +220,8 @@ console.log(`The color is ${resultant}`)
 myString = "I dont like money";
 myArray = Array.from(myString);
 console.log(myArray)// this will give out an arrayof all the values be it space comma etc
-// now i can also make the opposite of the above and make an array a string lol
+
+
 // this can be achieved using the .join method
 
 
