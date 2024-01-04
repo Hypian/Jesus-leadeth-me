@@ -266,6 +266,8 @@ switch (operand){
 console.log(outPut);
 
 // recaps on arrow functions
+
+
 const greet = (/*param*/) =>{
     console.log("Hello World");
 }
@@ -274,6 +276,8 @@ const addiTion = (a,b,c) => {
 }
 console.log((addiTion(1,2,3)))
 greet();
+
+
 //Stand in line courtesy of freecode camp this code demonstates queues in js 
 function nextInLine(arr, item) {
   // Only change code below this line
