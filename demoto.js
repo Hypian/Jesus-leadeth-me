@@ -526,4 +526,5 @@ console.log(rem(3))
   }
 }
 console.log(rem(5))
+
 // The `!` (logical NOT) operator in the code is used to negate the result of the condition. In the line `if (!(val % 2 === 0))`, it negates the result of the condition `val % 2 === 0`. So, if `val` is not divisible by 2 (i.e., it's an odd number), the condition becomes `true`, and `!` turns it into `false`. If `val` is divisible by 2 (i.e., it's an even number), the condition becomes `false`, and `!` turns it into `true`. Essentially, it's a way of checking if `val` is an odd number.
