@@ -19,7 +19,7 @@ const y = parseFloat(prompt("Enter a number:"))
 
 
 
-    if (y > 0){
+    if (y > 0.5){
        console.log ("Positive integer")
     }
     else if (y = 0){
