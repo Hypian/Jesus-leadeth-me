@@ -109,7 +109,7 @@ console.log(otherVall)
 var herString = "The bugs in my code arent in my bed "
 var herRegex = /[aeiou]/
 var result = herRegex.test(herString);
-console.log(result)
+console.log(result);
 
 
 // regex but match keyword;
