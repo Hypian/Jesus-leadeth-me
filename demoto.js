@@ -87,7 +87,7 @@ console.log(result)
 
 // Added more knowledge on ternary operator and solved problems
 function checkEqual(a, b) {
-    return a > b || b > a ? "Not Equal" : "Equal";
+    return a > b || b > a ? "Not Equal" : "Equal"
   
   }
   
