@@ -43,7 +43,7 @@ console.log(result);
 // recursion in js 
 function countDown(number){
     console.log(number);
-    var newNum = number - 1;
+    var newNum = number - 1
     if (newNum >0){
         countDown(newNum)
     }
