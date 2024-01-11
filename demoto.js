@@ -45,7 +45,7 @@ function countDown(number){
     console.log(number);
     var newNum = number - 1
     if (newNum >0){
-        countDown(newNum)
+        countDown(newNum);
     }
 }
 console.log(countDown(7))
