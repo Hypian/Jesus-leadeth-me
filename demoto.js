@@ -130,7 +130,7 @@ let result = quoteSample.match(alphabetRegex) // Change this line
 let quoteSamplee = "3 blind mice."
 let myRegexz = /[^aeiuo^0-9]/ig; // Change this line
 let result =quoteSamplee.match(myRegexz); // Change this line
-console.log(result)
+console.log(result);
 
 
 // simple calculator using switch case statement
