@@ -500,6 +500,7 @@ the status variable was created (created = declaration and initialization) */
 const nim = ['apple','orange','sin','man'];
 nim[4] = "branch"
 console.log(nim)
+
 // so basically in js there is variable declaration and initialization and it can be done using the const
 // and the var and let the const specifically makes further binding of both value and variable name difficult
 
