@@ -449,3 +449,44 @@ function convertTo24Hourf(time12hours){
 }
 const time24 = convertTo24Hourf('03:45 AM')
 console.log(time24) // to be revised again 
+
+// matrices 
+
+function multiplyMatrices(matrix1, matrix2) {
+    let result = [];
+  
+    // Check if matrices can be multiplied
+    if (matrix1[0].length !== matrix2.length) {
+      throw new Error("Incompatible matrices for multiplication");
+    }
+  
+    for (let i = 0; i < matrix1.length; i++) {
+      result[i] = [];
+      for (let j = 0; j < matrix2[0].length; j++) {
+        result[i][j] = 0;
+        for (let k = 0; k < matrix1[0].length; k++) {
+          result[i][j] += matrix1[i][k] * matrix2[k][j];
+        }
+      }
+    }
+  
+    return result;
+  }
+  
+  // Example matrices
+  const matrixA = [
+    [2, 3],
+    [4, 5],
+  ];
+  
+  const matrixB = [
+    [1, 2],
+    [3, 4],
+  ];
+  
+  // Multiply matrices
+  const resultMatrix = multiplyMatrices(matrixA, matrixB);
+  
+  // Print the result
+  console.log(resultMatrix);
+  
