@@ -1,8 +1,10 @@
-//Learnt js repo and revision
+//Learnt js repo and revision;
+
+
 var val = "Hello World"
 let hwRegex = /hello/
 let newVal = hwRegex.test(val) // returns a boolean value accordingly
-console.log(newVal)// this returns
+console.log(newVal)
 
 const nyObj = {
     a : 1,
@@ -10,43 +12,30 @@ const nyObj = {
 }
 var hasIt = "name" in nyObj;
 console.log(hasIt) // the in operator also returns a boolean value/false;
-const number = [1,2,3,4,5,6,7,8,9,10];
-const oddNumbers = number.filter(function(num){
-    return num % 2 === 0;
+
 })
-console.log("odd numbers in the array;",oddNumbers);
-const  words = [1,2,3,4,5,6,7,8,9,0];
-const someEvenNums = words.some(function (num){
-    return num % 2===0
-})
-console.log(someEvenNums);
-// a js program that checks if y is +,- or 0 and displays an appropraite message
-let x = [1,2,3,4,-4,0,7];
-const checkNum = y.filter(function(num){
-    return num%2 === 0;
-})
-console.log(checkNum);
-const y = parseFloat(prompt("Enter a number:"))
+
+const y = parseFloat(prompt("Enter a number:"));
 
 
 
-    if (y > 0){
-       console.log ("Positive integer");
+    if (y > 0.5){
+       console.log ("Positive integer")
     }
     else if (y = 0){
       console.log("Zero");
     }
     else{
-       console.log("Negative integer");
+       console.log("Negative integer")
     }
     // use the some and filter keywords with arrow functions
 // filter 
 const myObj = [1,3,5,7,9];
-const oddNumberss = myObj.filter(num => num % 2 === 1);
+const oddNumberss = myObj.filter(num => num % 2 === 1)
 console.log(oddNumberss);
 // some returns an array of odd numbers;
 
-const checkEvenNum = myObj.some(num => num % 2 === 0);
+const checkEvenNum = myObj.some(num => num % 2 === 0)
 console.log("there are  such numbers;",checkEvenNum)
 // returns true
 var result = 7 * (true + true);// this will return 14 bcz true = 1
@@ -54,77 +43,75 @@ console.log(result);
 // recursion in js 
 function countDown(number){
     console.log(number);
-    var newNum = number - 1;
+    var newNum = number - 1
     if (newNum >0){
         countDown(newNum);
     }
 }
-console.log(countDown(7));
+console.log(countDown(7))
 function countUp (number){
-    if (number <= 10){ // condition;
+    if (number <= 10){ // condition
     console.log(number);
-    countUp(number + 1) // recurse;
+    countUp(number + 1) // recurse
     } 
 }
 countUp(1);
-function countDownn(num){
-    if(num > 1){  //condition understanding how the code should work
-        console.log(num);
-        countUp(num-1);// recurse;
-    }
-    
-}
-countDown(10);
+
+
 // arrays 
-const myArray = [1,2,3,4,5,6,7,8,9,10,11,12,14]
+const myArray = [1,2,3,4,5,6,7,8,9,10,11,12,14];
 var fillled = myArray.fill(0)
 console.log(fillled)
 let yas = [1,2,3,4,5,6,7,8,9,0]
 var newzVal = yas.filter(num => num % 2 === 0)
 console.log(newzVal)
-var maxNum = Math.min(...yas);
+var maxNum = Math.min(...yas)
 console.log(maxNum)
+
 // recap on recursive function ; this is a function that recalls itself with a condition and recursive or (base code)
 // example below
 function countUpp(val){
     if (val > 10){
         console.log(val);
-        countUpp(val + 1);
+        countUpp(val + 1)
     }
 }
 countUpp(1);
 
-function checkMatrix(MatrixA,MatrixB){
-    if ( MatrixA.length !== MatrixB.length || MatrixA.length[0] !== MatrixB.length[0]){
-        return "error due to dimensional inequality";
-    }
-}
 // learnt how to use the ternary operator instead of if else or switch
 const grade = 45
 const result = (grade >80) ? "D1" 
  : (grade > 60 && grade < 80) ? "Pass" : "Fail"
 console.log(result)
-// Added more knowledge on ternary operator and solved problems without chatGpt lol
+
+
+// Added more knowledge on ternary operator and solved problems
 function checkEqual(a, b) {
-    return a > b || b > a ? "Not Equal" : "Equal";
+    return a > b || b > a ? "Not Equal" : "Equal"
   
   }
   
-  checkEqual(1, 2);
+  checkEqual(1, 2)
 // using some op and filter 
 // filter function 
-const newArrayy = [1,2,3,4,5,6,7,8,9]
-const newVall = newArrayy.filter(num => num % 2 === 1)
+const newArrayy = [1,2,3,4,5,6,7,8,9];
+const newVall = newArrayy.filter(num => num % 2 === 1);
 console.log(newVal)
+
+
 // some 
 const myArrayy = [1,2,3,4,5,6,7,8,9]
 const otherVall = myArrayy.some(num => num < 1)
 console.log(otherVall)
+
+
 // i am adding practice on regex or regular expressions lol (test methode)
-var herString = "The bugs in my code arent in my bed ";
+var herString = "The bugs in my code arent in my bed "
 var herRegex = /[aeiou]/
 var result = herRegex.test(herString);
-console.log(result)
+console.log(result);
+
+
 // regex but match keyword;
 // as we saw before the test method or function returns booleans while the match
 // now we use the match method
@@ -133,6 +120,8 @@ let wordss = "I hate Fox , i wish fox were dead, because fox at my friend lol"
 let myRegex = /fox/ig
 let answer = wordss.match(myRegex)
 console.log(answer)
+
+
 // a hyphen can be used to specify range of scope to be matched
 let quoteSample = "The quick brown fox jumps over the lazy dog."
 let alphabetRegex = /[a-z]/ig; // Change this line of code
@@ -141,11 +130,13 @@ let result = quoteSample.match(alphabetRegex) // Change this line
 let quoteSamplee = "3 blind mice."
 let myRegexz = /[^aeiuo^0-9]/ig; // Change this line
 let result =quoteSamplee.match(myRegexz); // Change this line
-console.log(result)
-// simple calculator using switch case statement;
+console.log(result);
+
+
+// simple calculator using switch case statement
 // 4 variables two nums one for the operand and
 //one for the variable of the outcome 
-//it should be done in five minutes
+
 const numeroUno = 2;
 const numeroDos = 7;
 let answerr;
@@ -166,7 +157,7 @@ break;
 case "%":
 answerr = numeroDos % numeroUno;
 default : 
-answerr = "Not Aplicable"
+answerr = "Not Aplicable";
 }
 console.log(`The result of Your Operation is  ${answerr}`)
 // creating Write a program that takes a number (1-7) as input and 
@@ -200,12 +191,14 @@ default:
 dayName = "Not Allowed";
 }
 console.log(`The day of the week is ${dayName}`)
-//Simulate a traffic light with three states (red, yellow, green) and print the
-// color of the light when a number (1-3) is input.
-// we will need two variable colorLight and numero
+
+
+//Simulate a traffic light with three states (red, yellow, green) and print the color of the light when a number (1-3) is input.
+// we will need two variable colorLight and numer
+
 var numero = 1;
 var resultant ;
-switch(numero){
+switch(numer){
 case 1 :
 resultant = "Red";
 break;
@@ -219,16 +212,19 @@ default :
 resultant = "Not Allowed Here";
 
 }
-console.log(`The color is ${resultant}`);
+console.log(`The color is ${resultant}`)
 
-console.log(`The color is ${resultant}`);
+
 // adding a method that converts a string to array;
 // it is the Array.from method 
 myString = "I dont like money";
 myArray = Array.from(myString);
 console.log(myArray)// this will give out an arrayof all the values be it space comma etc
-// now i can also make the opposite of the above and make an array a string lol
+
+
 // this can be achieved using the .join method
+
+
 var herArray = [1,2,3,4,5,6,7,8,9,0]
 var itsString = herArray.join(_) // here i use underscore to separate the characters
 // convert string into Number
@@ -271,6 +267,8 @@ switch (operand){
 console.log(outPut);
 
 // recaps on arrow functions
+
+
 const greet = (/*param*/) =>{
     console.log("Hello World");
 }
@@ -279,6 +277,8 @@ const addiTion = (a,b,c) => {
 }
 console.log((addiTion(1,2,3)))
 greet();
+
+
 //Stand in line courtesy of freecode camp this code demonstates queues in js 
 function nextInLine(arr, item) {
   // Only change code below this line
@@ -324,6 +324,8 @@ function Car (brand,horsePower){
         console.log(`This car is a ${this.brand} and has ${this.horsePower} of power`);// here i use an arrow function because i love them lol
     }
 }
+
+
 // to acces the diff properties to create multiple instances of objects we can use the new keyword
 const car1 = new Car ('Corvette',10000);
 const car2 = new Car ('Benz',12000);
@@ -357,8 +359,9 @@ function converToInteger (str){
 }
 const newBase = converToInteger("100111",2)
 console.log(newBase)
-// create a temperature conversion algorithm with a prompt box 
 
+
+// create a temperature conversion algorithm with a prompt box 
 const convertToCel = (fahr) =>{
     return  (fahr-32) *5/9
 }
@@ -424,7 +427,7 @@ function multiplyAll(arr) {
     return product;
   }
   
-  multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+  multiplyAll([[1, 8], [3, 4], [5, 6, 7]]);
   // a constructor function about computers
 function Computer(processor,gpu,refreshrate){
     this.gpu = gpu;
@@ -449,6 +452,49 @@ function convertTo24Hourf(time12hours){
 }
 const time24 = convertTo24Hourf('03:45 AM')
 console.log(time24) // to be revised again 
+<<<<<<< HEAD
+
+// matrices 
+
+function multiplyMatrices(matrix1, matrix2) {
+    let result = [];
+  
+    // Check if matrices can be multiplied
+    if (matrix1[0].length !== matrix2.length) {
+      throw new Error("Incompatible matrices for multiplication");
+    }
+  
+    for (let i = 0; i < matrix1.length; i++) {
+      result[i] = [];
+      for (let j = 0; j < matrix2[0].length; j++) {
+        result[i][j] = 0;
+        for (let k = 0; k < matrix1[0].length; k++) {
+          result[i][j] += matrix1[i][k] * matrix2[k][j];
+        }
+      }
+    }
+  
+    return result;
+  }
+  
+  // Example matrices
+  const matrixA = [
+    [2, 3],
+    [4, 5],
+  ];
+  
+  const matrixB = [
+    [1, 2],
+    [3, 4],
+  ];
+  
+  // Multiply matrices
+  const resultMatrix = multiplyMatrices(matrixA, matrixB);
+  
+  // Print the result
+  console.log(resultMatrix);
+  
+=======
 // function of a regex
 function regularExp(){
  
@@ -497,9 +543,11 @@ the status variable was created (created = declaration and initialization) */
 const nim = ['apple','orange','sin','man'];
 nim[4] = "branch"
 console.log(nim)
+
 // so basically in js there is variable declaration and initialization and it can be done using the const
 // and the var and let the const specifically makes further binding of both value and variable name difficult
 
+<<<<<<< HEAD
 // recaps
 const arrayofNum = [1,2,3,4,5,6,7,8,9,0,10]
 const myNewArray = arrayofNum.filter(function (num){
@@ -508,3 +556,31 @@ const myNewArray = arrayofNum.filter(function (num){
 console.log(myNewArray)
 const newArray = myNewArray.fill("sheesh")
 console.log(myNewArray)
+=======
+
+//function recaps
+function rem(val){
+  if (val % 2 === 0){
+    return "is even"
+  }
+  else if (val % 2 ===1){
+    return "is odd"
+  }
+}
+console.log(rem(3))
+
+
+// function rem(val){
+  if (!(val % 2 === 0)){
+    return true
+  }
+  else {
+    return false
+    
+  }
+}
+console.log(rem(5));
+
+// The `!` (logical NOT) operator in the code is used to negate the result of the condition. In the line `if (!(val % 2 === 0))`, it negates the result of the condition `val % 2 === 0`. So, if `val` is not divisible by 2 (i.e., it's an odd number), the condition becomes `true`, and `!` turns it into `false`. If `val` is divisible by 2 (i.e., it's an even number), the condition becomes `false`, and `!` turns it into `true`. Essentially, it's a way of checking if `val` is an odd number.
+>>>>>>> 7dac18246948ed5fcdb979d7e8543d5ccfefffac
+>>>>>>> cef7c8324fcf4ba2bd3b39534c0f28046a60cc76
