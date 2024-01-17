@@ -499,3 +499,12 @@ nim[4] = "branch"
 console.log(nim)
 // so basically in js there is variable declaration and initialization and it can be done using the const
 // and the var and let the const specifically makes further binding of both value and variable name difficult
+
+// recaps
+const arrayofNum = [1,2,3,4,5,6,7,8,9,0,10]
+const myNewArray = arrayofNum.filter(function (num){
+    return num % 2 === 0 
+})
+console.log(myNewArray)
+const newArray = myNewArray.fill("sheesh")
+console.log(myNewArray)
