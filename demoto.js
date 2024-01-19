@@ -588,4 +588,4 @@ console.log(rem(5));
 // matching characters that appear multiple times 
 let strings = "I love mississipis";
 let regex = /s+/gi;
-let result = strings.match(regex)
+let result = strings.match(regex);
