@@ -15,7 +15,7 @@ console.log(hasIt) // the in operator also returns a boolean value/false;
 
 })
 
-const y = parseFloat(prompt("Enter a number:"))
+const y = parseFloat(prompt("Enter a number:"));
 
 
 
@@ -547,16 +547,6 @@ console.log(nim)
 // so basically in js there is variable declaration and initialization and it can be done using the const
 // and the var and let the const specifically makes further binding of both value and variable name difficult
 
-<<<<<<< HEAD
-// recaps
-const arrayofNum = [1,2,3,4,5,6,7,8,9,0,10]
-const myNewArray = arrayofNum.filter(function (num){
-    return num % 2 === 0 
-})
-console.log(myNewArray)
-const newArray = myNewArray.fill("sheesh")
-console.log(myNewArray)
-=======
 
 //function recaps
 function rem(val){
@@ -583,9 +573,9 @@ console.log(rem(5));
 
 // The `!` (logical NOT) operator in the code is used to negate the result of the condition. In the line `if (!(val % 2 === 0))`, it negates the result of the condition `val % 2 === 0`. So, if `val` is not divisible by 2 (i.e., it's an odd number), the condition becomes `true`, and `!` turns it into `false`. If `val` is divisible by 2 (i.e., it's an even number), the condition becomes `false`, and `!` turns it into `true`. Essentially, it's a way of checking if `val` is an odd number.
 >>>>>>> 7dac18246948ed5fcdb979d7e8543d5ccfefffac
->>>>>>> cef7c8324fcf4ba2bd3b39534c0f28046a60cc76
-// regex recaps
-// matching characters that appear multiple times 
-let strings = "I love mississipis";
-let regex = /s+/gi;
-let result = strings.match(regex);
+
+// arrow function recap
+const multiplyAll = (a,bc,de) =>{
+  return a*bc*de
+}
+console.log(multiplyAll(4,55,66))
