@@ -15,7 +15,7 @@ console.log(hasIt) // the in operator also returns a boolean value/false;
 
 })
 
-const y = parseFloat(prompt("Enter a number:"));
+const y = parseFloat(prompt("Enter a number:"))
 
 
 
