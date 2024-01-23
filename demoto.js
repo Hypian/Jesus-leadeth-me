@@ -163,7 +163,7 @@ console.log(`The result of Your Operation is  ${answerr}`)
 // creating Write a program that takes a number (1-7) as input and 
 // displays the corresponding day of the week (e.g., 1 for "Sunday," 2 for "Monday," etc.).
 
-const dayNum  = (6); 
+const dayNum  = (6)
 let dayName;
 switch(dayNum){
 case 1 :
