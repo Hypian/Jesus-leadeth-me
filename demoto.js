@@ -579,3 +579,5 @@ const multiplyAll = (a,bc,de) =>{
   return a*bc*de
 }
 console.log(multiplyAll(4,55,66))
+
+// Typescript
