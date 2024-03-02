@@ -11,7 +11,7 @@ const nyObj = {
     c : 2,
 }
 var hasIt = "name" in nyObj;
-console.log(hasIt) // the in operator also returns a boolean value/false;
+console.log(hasIt) // the in operator also returns a boolean value/falsey;
 
 })
 
